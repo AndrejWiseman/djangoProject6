@@ -16,7 +16,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.vercel.app', '.now.sh']
 
-# "whitenoise.runserver_nostatic",
+
 
 # Application definition
 
