@@ -65,16 +65,30 @@ WSGI_APPLICATION = 'djangoProject6.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres.nwfdyyoyqkaznunqseqc',
-        'PASSWORD': '6giVAByFR1gKjTqC',
-        'HOST': 'aws-0-eu-central-1.pooler.supabase.com',
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': 'NwOGj7dh5buZ',
+        'HOST': 'ep-icy-mode-a2her67x-pooler.eu-central-1.aws.neon.tech',
         'PORT': '5432'
     }
 }
+
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres.nwfdyyoyqkaznunqseqc',
+#         'PASSWORD': '6giVAByFR1gKjTqC',
+#         'HOST': 'aws-0-eu-central-1.pooler.supabase.com',
+#         'PORT': '5432'
+#     }
+# }
 
 
 # Password validation
