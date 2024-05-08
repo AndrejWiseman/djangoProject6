@@ -129,6 +129,15 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = os.path.join(BASE_DIR, 'mystaticfiles'),
 STATIC_ROOT = os.path.join(BASE_DIR, 'productionfiles')
 
+STORAGES = {
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+    },
+    "staticfiles": {
+        "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+    },
+}
+
 # MEDIA_URL = 'media/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
 # # MEDIA_ROOT = BASE_DIR / 'uploads'
