@@ -143,8 +143,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'productionfiles')
 #     "staticfiles": {
 #         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
 #     },
-#
 # }
+# "outputDirectory": "productionfiles"
 
 # MEDIA_URL = 'media/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
