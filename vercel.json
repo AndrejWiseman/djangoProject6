@@ -10,7 +10,7 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "productionfiles"
+        "distDir": "staticfiles"
       }
     }
   ],
@@ -23,5 +23,6 @@
       "src": "/(.*)",
       "dest": "djangoProject6/wsgi.py"
     }
-  ]
+  ],
+  "outputDirectory": "staticfiles"
 }
