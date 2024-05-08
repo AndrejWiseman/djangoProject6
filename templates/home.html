@@ -1,6 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <style>
+        .naslov {
+            text-align: center;
+            color: green;
+            margin: 10px;
+        }
+        .lista {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+
     <h2 class="naslov">Zdravo svete!</h2>
     <div class="list-group lista">
       {% for qs in queryset %}
