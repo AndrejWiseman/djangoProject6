@@ -1,0 +1,9 @@
+        .naslov {
+            text-align: center;
+            color: deeppink;
+            margin: 10px;
+        }
+        .lista {
+            max-width: 400px;
+            margin: 0 auto;
+        }
