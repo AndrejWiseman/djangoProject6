@@ -23,6 +23,5 @@
       "src": "/(.*)",
       "dest": "djangoProject6/wsgi.py"
     }
-  ],
-
+  ]
 }
